@@ -1,0 +1,105 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+*{
+  font-family: "Poppins", sans-serif;
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body{
+  background: #000;
+  color: #fff;
+  
+}
+
+.container {
+  display: flex;
+  margin: 220px auto ;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  text-align: center;
+  
+}
+
+.habilidades{
+  margin-top: 40px;
+  display: grid;
+  height: 100vh;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  text-align: center;
+}
+
+h1{
+  font-size: 40px;
+  text-align: center;
+  margin:0;
+  font-weight: 900;
+}
+
+h3{
+  font-size: 20px;
+  text-align: center;
+  margin:0;
+  font-weight: 600;
+}
+
+p{
+  text-align: center;
+  font-size:15px;
+  margin: 0;
+  
+}
+
+.logo{
+  align-items: center; 
+}
+
+.seta{
+  width:90px ;
+}
+
+
+
+.card{
+  margin: 10px auto;
+}
+
+.sumir{
+  opacity:0;
+  filter: blur(15px);
+  transform: translateX(-100%);
+  transition: all 2s;
+}
+
+.aparecer{
+  opacity: 1;
+  filter: blur(0);
+  transform: translateX(0);
+  transition: all 2s;
+}
+
+.titulo{
+  
+  margin-bottom: 30px;
+  font-size: 50px;
+  
+}
+
+.cor{
+  color: #000;
+  background-color: #fff;
+}
+
+.botao{
+  background-color: #000;
+}
+
+.bootstrap{
+  background-color: #fff;
+  width: 39px;
+  margin: 4px 4px 9px 4px;
+  height: 39px;
+}
